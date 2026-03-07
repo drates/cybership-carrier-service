@@ -1,0 +1,33 @@
+{
+  "name": "cybership-carrier-service",
+  "version": "1.0.0",
+  "description": "A carrier integration service for Cybership.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "typescript",
+    "hexagonal-architecture",
+    "shipping"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "dotenv": "^16.6.1",
+    "nock": "^13.5.4",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "zod": "^3.22.4"
+  },
+  "overrides": {
+    "vite": "^5.2.11"
+  }
+}
